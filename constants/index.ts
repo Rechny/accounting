@@ -7,17 +7,31 @@ export const sidebarLinks = [
   {
     imgURL: "/icons/dollar-circle.svg",
     route: "/my-banks",
-    label: "My Banks",
+    label: "Meine Konten",
   },
+
+  {
+    imgURL: "/icons/payment-transfer.svg",
+    route: "/my-stocks",
+    label: "Meine Aktien",
+  },
+
+  {
+    imgURL: "/icons/payment-transfer.svg",
+    route: "/trading-journal",
+    label: "Trading Journal",
+  },
+  
   {
     imgURL: "/icons/transaction.svg",
     route: "/transaction-history",
-    label: "Transaction History",
+    label: "Transaktionen",
   },
+
   {
     imgURL: "/icons/money-send.svg",
     route: "/payment-transfer",
-    label: "Transfer Funds",
+    label: "Geld senden",
   },
 ];
 
